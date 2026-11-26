@@ -1,0 +1,101 @@
+{
+  "mesh_convergence_L2_T": [
+    [
+      16,
+      1.0083707419852335
+    ],
+    [
+      24,
+      1.0083751265751932
+    ],
+    [
+      32,
+      1.0083766284372588
+    ]
+  ],
+  "conservation_and_positivity": {
+    "config": {
+      "nx": 32,
+      "ny": 32,
+      "Lx": 6.283185307179586,
+      "Ly": 6.283185307179586,
+      "dt": 0.001,
+      "t_end": 0.05,
+      "rho0": 1.0,
+      "cv": 1.0,
+      "eta": 0.05,
+      "a": 1.0,
+      "m_phi": 0.2,
+      "k_xx": 0.1,
+      "k_yy": 0.05,
+      "T_min": 1e-06,
+      "limiter": "minmod",
+      "seed": 42
+    },
+    "steps_executed": 50,
+    "final_time": 0.05,
+    "max_div_inf": 3.9968028886505635e-15,
+    "E_initial": 50.48690171503397,
+    "E_final": 50.48332648452652,
+    "max_energy_rel_drift": 7.081501114152107e-05,
+    "min_T_observed": 0.7524018399495962,
+    "total_clamped_cells": 0,
+    "elapsed_seconds": 0.8016768390007201
+  },
+  "peclet_sweep": [
+    {
+      "peclet_cell_approx": 1.9634954084936207,
+      "min_T": 0.7524018399495962,
+      "clamped_cells": 0,
+      "energy_rel_drift": 4.265861560541289e-05
+    },
+    {
+      "peclet_cell_approx": 19.634954084936204,
+      "min_T": 0.7524018399495962,
+      "clamped_cells": 0,
+      "energy_rel_drift": 4.2658615604286985e-05
+    },
+    {
+      "peclet_cell_approx": 196.34954084936206,
+      "min_T": 0.7524018399495962,
+      "clamped_cells": 0,
+      "energy_rel_drift": 4.265861560527215e-05
+    },
+    {
+      "peclet_cell_approx": 1963.4954084936205,
+      "min_T": 0.7524018399495962,
+      "clamped_cells": 0,
+      "energy_rel_drift": 4.265861560189444e-05
+    }
+  ],
+  "cfl_sweep": [
+    {
+      "dt": 0.0005,
+      "cfl_approx": 0.0025464790894703256,
+      "max_div_inf": 3.9968028886505635e-15,
+      "min_T": 0.7524018399495962,
+      "energy_rel_drift": 2.8580723452817293e-05
+    },
+    {
+      "dt": 0.001,
+      "cfl_approx": 0.005092958178940651,
+      "max_div_inf": 3.9968028886505635e-15,
+      "min_T": 0.7524018399495962,
+      "energy_rel_drift": 2.8507905578556692e-05
+    },
+    {
+      "dt": 0.0025,
+      "cfl_approx": 0.012732395447351628,
+      "max_div_inf": 3.9968028886505635e-15,
+      "min_T": 0.7524018399495962,
+      "energy_rel_drift": 2.828923274643319e-05
+    },
+    {
+      "dt": 0.005,
+      "cfl_approx": 0.025464790894703257,
+      "max_div_inf": 4.593547764386585e-15,
+      "min_T": 0.7524018399495962,
+      "energy_rel_drift": 2.7924043135131933e-05
+    }
+  ]
+}
