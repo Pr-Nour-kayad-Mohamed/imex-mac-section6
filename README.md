@@ -1,5 +1,8 @@
 # IMEX-MAC 2D — Section 6 Archival Package (v1)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24562721.svg)](https://doi.org/10.5281/zenodo.24562721)
+
+
 Auteur : NOUR KAYAD, Mohamed — MENFOP, République de Djibouti
 ORCID : 0009-0002-1443-7599 — E-mail : mnkr20232030@gmail.com
 Date d'archivage : 2026-11-26
